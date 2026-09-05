@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:PICO_SDK_PATH}/**",
+                "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/common/pico_base/include"
+            ],
+            "defines": [],
+            "compilerPath": "${env:PICO_INSTALL_PATH}/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
